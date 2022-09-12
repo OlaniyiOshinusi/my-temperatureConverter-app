@@ -15,7 +15,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>temperature converter</h1>
+        <h1>Temperature converter</h1>
       </header>
     </div>
   );
