@@ -4,25 +4,8 @@ exports[`that DOM renders consistently 1`] = `
 <div
   className="App"
 >
-  <header
-    className="App-header"
-  >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
-    <h1>
-      Temperature converter
-    </h1>
-  </header>
+  <h1>
+    Temperature converter
+  </h1>
 </div>
 `;
