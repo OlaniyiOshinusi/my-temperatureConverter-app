@@ -1,10 +1,16 @@
 import './App.css';
+import Temp from './components/temperatureInput/temperatureInputer';
+import CelsiusRow from './components/CelsiusRow';
+import FahrenheitRow from './components/FahrenheitRow';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Temperature converter</h1>
-    </div>
+    <>
+      <h1>Temperature Converter</h1>
+      <CelsiusRow />
+      <div> </div>
+      <FahrenheitRow />
+    </>
   );
 }
 
