@@ -1,10 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-describe('smoke test', () => { //a describe block groups several tests together
-  it('tests that Jest is working', () => { //smoke test
+// Smoke Test - Checks that jest is working!
+//a describe block groups several tests together
+describe("check that Jest is working", () => {
+  test("that 2+2 is 4", () => {
       expect(2+2).toBe(4); // smoke test's assertion
-  });
+  })
 });
 
 test('renders H1', () => {
